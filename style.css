@@ -1,0 +1,127 @@
+/* ----------------- Style Clear
+------------------------------*/
+
+html,body,div,ul,ol,li,dl,dt,dd,h1,h2,h3,h4,h5,h6,pre,form,p,blockquote,fieldset,input
+{
+	margin: 0;
+	padding: 0;
+}
+
+h1,h2,h3,h4,h5,h6,pre,code,address,caption,cite,code,em,strong,th
+{
+	font-size: 1em;
+	font-weight: normal;
+	font-style: normal;
+}
+
+.clear_both
+{
+    clear: both;
+}
+
+a, a img, input
+{
+	border: none;
+	outline: none;
+}
+
+a:link {
+	color: #999966;
+	text-decoration: none;
+}
+
+a:visited {
+	color: #999966;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #B9E3EC;
+	text-decoration: none;
+}
+
+a:active {
+	text-decoration: none;
+}
+
+/* --------------------- General 
+------------------------------*/
+
+html
+{
+	font-size: 100.01%;
+}
+
+body 
+{ 
+	margin: 0;
+	padding: 0;
+
+	font-size: 62.5%;
+	font-family: Arial,Helvetica,sans-serif;
+	line-height: 1.5;
+	
+	background-color: #000434;
+}
+
+
+#getFlash {
+	font-family: "century gothic",helvetica,arial;
+	font-size: 12px;
+	color: #F6E09B;
+}
+
+#page_container 
+{
+	height: 100%;
+	width: 820px;
+	margin: 0 auto;
+
+}
+
+#header
+{
+	height: 117px;
+	width: 820px;
+	margin-bottom: 20px;
+	position: relative;
+}
+
+#logo
+{
+	height: 52px;
+	width: 207px;
+	
+	position: absolute;
+	top: 13px;
+	left: -6px;
+}
+
+#swf_container
+{
+	position: relative;
+	float: left;
+	width: 480px;
+	height: 320px;
+}
+
+#google_large_rect
+{
+	position: relative;
+	float: right;
+	width: 336px;
+	margin-top: 20px;
+}
+
+#swf_wrap
+{
+	height: 320px;
+	width: 820px;
+
+	position: relative;
+}
+
+#footer
+{
+	color: #ffffff;
+}
